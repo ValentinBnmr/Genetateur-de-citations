@@ -7,11 +7,11 @@ let author = document.getElementById('auteur');
 let dernier = 0;
 let nombreAleatoire = 0;
 
-// La fonction prend en paramètre max, qui est la taille du tableau "citations" et on va renvoyer un nombre aleatoire en entier grâce à la fonction Math.floor .
+
 function genererNombreEntier(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
-
+// Pincipe de la fonction : Math.Random -> 0.7 * Math.floor(nombre élément du tableau citation) ->16 = Résultat du produit -> 11.2 = Math.floor(qui englobe le produit) -> 11
 //Évents 
 button.addEventListener('click', () => {
     do {
