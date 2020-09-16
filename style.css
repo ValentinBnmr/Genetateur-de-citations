@@ -32,6 +32,10 @@ html, body {
   #citation:after {
       content: close-quote;
   }
+
+  .divider {
+    background-color: #666666;
+  }
   
   #auteur {
     font-size: 1.5em;
